@@ -29,14 +29,20 @@
   const PARK_PLAN_IMAGE = 'images/itinerary/chimelong-ocean-kingdom.jpg';
 
   const HIGHLIGHT_IMAGES = new Set([
+    'images/itinerary/hengqin-novotown.jpg',
     'images/itinerary/chimelong-ocean-kingdom.jpg',
     'images/itinerary/chen-clan-academy.jpg',
     'images/itinerary/sacred-heart-cathedral_ver2.jpg',
     'images/itinerary/shamian-island_ver2.jpg',
     'images/itinerary/yongqing-fang_ver2.jpg',
     'images/itinerary/opera-house_ver2.jpg',
-    'images/itinerary/pearl-river-cruise_ver2.jpg'
+    'images/itinerary/pearl-river-cruise_ver2.jpg',
+    'images/itinerary/beijing-road_ver2.jpg',
+    'images/itinerary/dafo-temple_ver2.jpg'
   ]);
+
+  // First itinerary stop for each highlight image (a place visited twice shows once)
+  const isHighlight = (item, i, arr) => HIGHLIGHT_IMAGES.has(item.Image) && arr.findIndex(x => x.Image === item.Image) === i;
 
   // DOM Elements Cache
   const elements = {
@@ -266,7 +272,7 @@
     }
 
     if (elements.homeHighlightsWrapper) {
-      const highlightStops = state.itinerary.filter(item => HIGHLIGHT_IMAGES.has(item.Image));
+      const highlightStops = state.itinerary.filter(isHighlight);
       elements.homeHighlightsWrapper.innerHTML = highlightStops.map(item => `
         <div class="restaurant-card has-image home-nav-card" data-nav="itinerary-section">
           <div class="restaurant-img-wrapper">
@@ -490,7 +496,7 @@
 
     // Filter by Day (or curated Highlights)
     if (state.activeItineraryFilter === 'HIGHLIGHT') {
-      filtered = filtered.filter(item => HIGHLIGHT_IMAGES.has(item.Image));
+      filtered = filtered.filter(isHighlight);
     } else if (state.activeItineraryFilter !== 'ALL') {
       filtered = filtered.filter(item => item.Date === state.activeItineraryFilter);
     }
