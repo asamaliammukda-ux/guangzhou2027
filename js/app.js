@@ -31,7 +31,7 @@
   const HIGHLIGHT_IMAGES = new Set([
     'images/itinerary/chimelong-ocean-kingdom.jpg',
     'images/itinerary/chen-clan-academy.jpg',
-    'images/itinerary/sacred-heart-cathedral.jpg',
+    'images/itinerary/sacred-heart-cathedral_ver2.jpg',
     'images/itinerary/shamian-island.jpg',
     'images/itinerary/yongqing-fang.jpg',
     'images/itinerary/opera-house.jpg',
