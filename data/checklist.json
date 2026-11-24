@@ -1,0 +1,223 @@
+{
+  "checklist_sections": [
+    {
+      "category_id": "prep",
+      "category_name": "เอกสาร & การเตรียมตัวเดินทาง (Travel Prep & Documents)",
+      "groups": [
+        {
+          "group_name": "เอกสารสำคัญ & ข้อกำหนดเข้าเมือง มาเก๊า / จีน",
+          "items": [
+            {
+              "id": "gz_passport",
+              "task": "หนังสือเดินทาง (Passport เล่มจริง อายุใช้งานเหลือมากกว่า 6 เดือน)",
+              "time_note": "ตรวจสอบก่อนเดินทาง 30 วัน",
+              "channel_note": "ใช้ทั้งด่านมาเก๊า ด่านเหิงฉิน คาสิโน และตั๋วรถไฟ",
+              "badge_text": "Critical",
+              "badge_type": "danger"
+            },
+            {
+              "id": "gz_visa_free",
+              "task": "ตรวจสอบสิทธิ์ฟรีวีซ่า: มาเก๊า 30 วัน และจีนแผ่นดินใหญ่ 30 วัน (เตรียมตั๋วขากลับและใบจองโรงแรม)",
+              "time_note": "ก่อนบิน 7 วัน",
+              "channel_note": "ข้อตกลงยกเว้นวีซ่าไทย-จีน / ตม. มาเก๊า",
+              "badge_text": "Required",
+              "badge_type": "danger"
+            },
+            {
+              "id": "gz_insurance",
+              "task": "ทำประกันการเดินทางต่างประเทศ (ครอบคลุมทั้งมาเก๊าและจีน)",
+              "time_note": "ซื้อก่อนเดินทาง 14 วัน",
+              "channel_note": "บริษัทประกันการเดินทาง",
+              "badge_text": "High Priority",
+              "badge_type": "warning"
+            },
+            {
+              "id": "gz_china_customs",
+              "task": "กรอกแบบฟอร์มศุลกากรจีนขาเข้า (China Customs Declaration QR Code) ก่อนข้ามด่านเหิงฉิน",
+              "time_note": "ทำภายใน 24 ชม. ก่อนข้ามด่าน",
+              "channel_note": "WeChat Mini Program ศุลกากรจีน",
+              "badge_text": "Required",
+              "badge_type": "danger"
+            },
+            {
+              "id": "gz_hengqin_hours",
+              "task": "เช็กเวลาเปิดปิดด่านเหิงฉิน 横琴口岸 ก่อนวันเดินทาง",
+              "time_note": "ข้ามด่านราว 07.00 PM วันที่ 30 เม.ย.",
+              "channel_note": "ช่วงเริ่มหยุดยาว คนอาจแน่นกว่าปกติ",
+              "badge_text": "High Priority",
+              "badge_type": "warning"
+            }
+          ]
+        },
+        {
+          "group_name": "การเงิน & แอปพลิเคชัน",
+          "items": [
+            {
+              "id": "gz_alipay_wechat",
+              "task": "ผูกบัตรเครดิต / Travel Card กับ Alipay และ WeChat Pay (ใช้ในมาเก๊าได้หลายร้าน)",
+              "time_note": "ยืนยันตัวตนก่อนเดินทาง 7 วัน",
+              "channel_note": "Alipay & WeChat Pay App",
+              "badge_text": "Critical",
+              "badge_type": "danger"
+            },
+            {
+              "id": "gz_esim",
+              "task": "สั่งซื้อและติดตั้ง eSIM ที่ครอบคลุมทั้งจีนและมาเก๊า (เปิด Roaming เล่น LINE/FB/IG ได้)",
+              "time_note": "เปิดใช้งานเมื่อถึงมาเก๊า",
+              "channel_note": "เลือกแพ็ก China + Macau",
+              "badge_text": "High Priority",
+              "badge_type": "warning"
+            },
+            {
+              "id": "gz_12306",
+              "task": "ติดตั้งแอป 12306 และจองตั๋วรถไฟ 横琴站 / 珠海站 ✈ 广州南站",
+              "time_note": "จองทันทีที่เปิดขาย (ราว 15 วันก่อนเดินทาง) ช่วงหยุดยาว 1–5 พ.ค. ตั๋วหมดเร็ว",
+              "channel_note": "แอป 12306 (ลงทะเบียนด้วยพาสปอร์ต) หรือ Trip.com",
+              "badge_text": "Critical",
+              "badge_type": "danger"
+            },
+            {
+              "id": "gz_didi_amap",
+              "task": "ทดสอบ DiDi ในแอป Alipay และติดตั้ง Amap (高德地图) ปักหมุดโรงแรม/สถานที่",
+              "time_note": "เตรียมพร้อมก่อนเดินทาง",
+              "channel_note": "Alipay Mini-app: DiDi / Amap",
+              "badge_text": "Recommended",
+              "badge_type": "info"
+            },
+            {
+              "id": "gz_cash",
+              "task": "แลกเงินสดสำรอง: HKD หรือ MOP เล็กน้อยสำหรับแท็กซี่มาเก๊า และหยวน 500-1,000 RMB",
+              "time_note": "แลกก่อนเดินทาง 3-5 วัน",
+              "channel_note": "Superrich / ธนาคารพาณิชย์ (มาเก๊ารับ HKD ได้เกือบทุกที่)",
+              "badge_text": "Recommended",
+              "badge_type": "info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "bookings",
+      "category_name": "ตั๋ว การเดินทาง & ที่พัก (Bookings & Transportation)",
+      "groups": [
+        {
+          "group_name": "เที่ยวบิน & โรงแรมที่พัก",
+          "items": [
+            {
+              "id": "gz_flight_outbound",
+              "task": "เที่ยวบินขาไป BKK ✈ MFM (มาเก๊า)",
+              "time_note": "30 เม.ย. 2027 @ 01.50 PM - 05.30 PM (เวลาท้องถิ่น)",
+              "channel_note": "ยังไม่ได้ใส่เลขเที่ยวบิน",
+              "badge_text": "Pending",
+              "badge_type": "warning"
+            },
+            {
+              "id": "gz_hotel_hengqin",
+              "task": "โรงแรมเหิงฉิน 1 คืน ใกล้ฉางหลง เช่น 长隆横琴湾酒店",
+              "time_note": "เช็กอิน 30 เม.ย. @ 08.00 PM | เช็กเอาต์ 1 พ.ค. เช้า (ฝากกระเป๋า)",
+              "channel_note": "Trip.com",
+              "badge_text": "Pending",
+              "badge_type": "warning"
+            },
+            {
+              "id": "gz_hotel_guangzhou",
+              "task": "โรงแรมกวางโจว 3 คืน ย่านถนนปักกิ่ง 北京路",
+              "time_note": "เช็กอิน 1 พ.ค. ราว 09.00 PM | เช็กเอาต์ 4 พ.ค. @ 08.40 AM",
+              "channel_note": "Trip.com",
+              "badge_text": "Pending",
+              "badge_type": "warning"
+            },
+            {
+              "id": "gz_flight_inbound",
+              "task": "เที่ยวบินขากลับ CAN (白云机场) ✈ BKK",
+              "time_note": "4 พ.ค. 2027 @ 02.50 PM (ถึงสนามบิน 11.40 AM)",
+              "channel_note": "ยังไม่ได้ใส่เลขเที่ยวบิน",
+              "badge_text": "Pending",
+              "badge_type": "warning"
+            }
+          ]
+        },
+        {
+          "group_name": "ตั๋วเข้าชมสถานที่ (Attraction Tickets)",
+          "items": [
+            {
+              "id": "gz_chimelong_ticket",
+              "task": "บัตร Chimelong Ocean Kingdom 珠海长隆海洋王国 1 วัน",
+              "time_note": "เข้าชม 1 พ.ค. 2027 (วันแรงงาน คนแน่นมาก)",
+              "channel_note": "Trip.com (ราว 450–550 หยวน)",
+              "badge_text": "Pending",
+              "badge_type": "warning"
+            },
+            {
+              "id": "gz_chimelong_app",
+              "task": "ติดตั้งแอปของสวน Chimelong เพื่อดูตารางโชว์และเวลารอคิว",
+              "time_note": "ก่อน Day 2",
+              "channel_note": "App Store / WeChat Mini Program 长隆",
+              "badge_text": "Recommended",
+              "badge_type": "info"
+            },
+            {
+              "id": "gz_pearl_river_cruise",
+              "task": "ตั๋วล่องเรือแม่น้ำจูเจียง 珠江夜游 (ท่า 天字码头)",
+              "time_note": "2 พ.ค. 2027 ราว 06.20 PM",
+              "channel_note": "Trip.com หรือซื้อหน้าท่า (ราว 100–150 หยวน)",
+              "badge_text": "Pending",
+              "badge_type": "warning"
+            },
+            {
+              "id": "gz_hongtu_booking",
+              "task": "จองโต๊ะ Hongtu Hall ที่ White Swan Hotel",
+              "time_note": "2 พ.ค. 2027 @ 11.30 AM",
+              "channel_note": "โทรหรือจองผ่านโรงแรม",
+              "badge_text": "Recommended",
+              "badge_type": "info"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "packing",
+      "category_name": "สัมภาระ & ของใช้ (Packing)",
+      "groups": [
+        {
+          "group_name": "ของใช้สำหรับเดินเที่ยวและช้อปปิ้ง",
+          "items": [
+            {
+              "id": "gz_shoes",
+              "task": "รองเท้าใส่สบายสำหรับเดินทั้งวัน (สวนสนุกและตลาด)",
+              "time_note": "ก่อนแพ็กกระเป๋า",
+              "channel_note": "เดินเยอะทุกวัน",
+              "badge_text": "Recommended",
+              "badge_type": "info"
+            },
+            {
+              "id": "gz_powerbank",
+              "task": "Power Bank (ความจุไม่เกิน 20,000 mAh มีตัวเลขระบุชัดเจน และมีเครื่องหมาย 3C ตามกฎการบินจีน)",
+              "time_note": "พกพาขึ้นเครื่อง ห้ามโหลดใต้เครื่อง",
+              "channel_note": "ข้อกำหนดความปลอดภัยการท่าอากาศยานจีน",
+              "badge_text": "Required",
+              "badge_type": "danger"
+            },
+            {
+              "id": "gz_foldable_bag",
+              "task": "กระเป๋าพับได้ใบใหญ่ สำหรับของช้อปปิ้งและของฝาก",
+              "time_note": "ก่อนแพ็กกระเป๋า",
+              "channel_note": "เผื่อน้ำหนักกระเป๋าขากลับ",
+              "badge_text": "Convenient",
+              "badge_type": "info"
+            },
+            {
+              "id": "gz_meds",
+              "task": "ยาประจำตัว ร่ม และครีมกันแดด",
+              "time_note": "ก่อนแพ็กกระเป๋า",
+              "channel_note": "พกขนาดสำหรับเดินทาง",
+              "badge_text": "Recommended",
+              "badge_type": "info"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
