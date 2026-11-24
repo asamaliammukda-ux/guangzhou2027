@@ -33,8 +33,8 @@
     'images/itinerary/chen-clan-academy.jpg',
     'images/itinerary/sacred-heart-cathedral_ver2.jpg',
     'images/itinerary/shamian-island_ver2.jpg',
-    'images/itinerary/yongqing-fang.jpg',
-    'images/itinerary/opera-house.jpg',
+    'images/itinerary/yongqing-fang_ver2.jpg',
+    'images/itinerary/opera-house_ver2.jpg',
     'images/itinerary/pearl-river-cruise.jpg'
   ]);
 
