@@ -42,7 +42,7 @@
             {
               "id": "gz_hengqin_hours",
               "task": "เช็กเวลาเปิดปิดด่านเหิงฉิน 横琴口岸 ก่อนวันเดินทาง",
-              "time_note": "ข้ามด่านราว 07.00 PM วันที่ 30 เม.ย.",
+              "time_note": "ข้ามด่านราว 02.40 PM วันที่ 30 เม.ย.",
               "channel_note": "ช่วงเริ่มหยุดยาว คนอาจแน่นกว่าปกติ",
               "badge_text": "High Priority",
               "badge_type": "warning"
@@ -98,7 +98,7 @@
             {
               "id": "gz_flight_outbound",
               "task": "เที่ยวบินขาไป BKK ✈ MFM (มาเก๊า)",
-              "time_note": "30 เม.ย. 2027 @ 01.50 PM - 05.30 PM (เวลาท้องถิ่น)",
+              "time_note": "30 เม.ย. 2027 @ 09.30 AM - 01.10 PM (เวลาท้องถิ่น)",
               "channel_note": "ยังไม่ได้ใส่เลขเที่ยวบิน",
               "badge_text": "Pending",
               "badge_type": "warning"
@@ -106,7 +106,7 @@
             {
               "id": "gz_hotel_hengqin",
               "task": "IntercityHotel Zhuhai Hengqin Tianmu River 1 คืน (พัก 2 คน/ห้อง)",
-              "time_note": "เช็กอิน 30 เม.ย. @ 08.00 PM | เช็กเอาต์ 1 พ.ค. เช้า (ฝากกระเป๋า)",
+              "time_note": "เช็กอิน 30 เม.ย. @ 03.40 PM | เช็กเอาต์ 1 พ.ค. เช้า (ฝากกระเป๋า)",
               "channel_note": "Trip.com",
               "badge_text": "Pending",
               "badge_type": "warning"
