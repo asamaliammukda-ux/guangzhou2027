@@ -151,16 +151,16 @@
             {
               "id": "gz_pearl_river_cruise",
               "task": "ตั๋วล่องเรือแม่น้ำจูเจียง 珠江夜游 (ท่า 天字码头)",
-              "time_note": "2 พ.ค. 2027 ราว 06.20 PM",
+              "time_note": "2 พ.ค. 2027 ราว 06.40 PM",
               "channel_note": "Trip.com หรือซื้อหน้าท่า (ราว 100–150 หยวน)",
               "badge_text": "Pending",
               "badge_type": "warning"
             },
             {
-              "id": "gz_hongtu_booking",
-              "task": "จองโต๊ะ Hongtu Hall ที่ White Swan Hotel",
-              "time_note": "2 พ.ค. 2027 @ 11.30 AM",
-              "channel_note": "โทรหรือจองผ่านโรงแรม",
+              "id": "gz_liyuan_booking",
+              "task": "จองโต๊ะ Liyuan Restaurant (Yi'an Plaza Branch)",
+              "time_note": "2 พ.ค. 2027 @ 11.50 AM",
+              "channel_note": "โทรหรือจองผ่านแอป Dianping / Amap",
               "badge_text": "Recommended",
               "badge_type": "info"
             }
