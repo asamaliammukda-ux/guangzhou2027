@@ -737,6 +737,15 @@
         </a>
       ` : '';
 
+      const reviewHTML = (item.Review && item.Review.trim() !== '') ? `
+        <a href="${escapeHTML(item.Review.trim())}" target="_blank" rel="noopener noreferrer" class="amap-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h8M8 14h5m-9 6l3-3h11a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v14z" />
+          </svg>
+          Review
+        </a>
+      ` : '';
+
       html += `
         <div class="restaurant-card ${hasImage ? 'has-image' : 'no-image'}">
           ${imageHTML}
@@ -788,6 +797,7 @@
               ` : ''}
               ${amapHTML}
               ${linkHTML}
+              ${reviewHTML}
             </div>
           </div>
         </div>
