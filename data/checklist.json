@@ -42,8 +42,8 @@
             {
               "id": "gz_hengqin_hours",
               "task": "เช็กเวลาเปิดปิดด่านเหิงฉิน 横琴口岸 ก่อนวันเดินทาง",
-              "time_note": "ข้ามด่านราว 02.40 PM วันที่ 30 เม.ย.",
-              "channel_note": "ช่วงเริ่มหยุดยาว คนอาจแน่นกว่าปกติ",
+              "time_note": "ข้ามด่านราว 02.40 PM วันที่ 20 ก.พ.",
+              "channel_note": "วางแผนข้ามด่านช่วงบ่าย",
               "badge_text": "High Priority",
               "badge_type": "warning"
             }
@@ -98,7 +98,7 @@
             {
               "id": "gz_flight_outbound",
               "task": "เที่ยวบินขาไป BKK ✈ MFM (มาเก๊า)",
-              "time_note": "30 เม.ย. 2027 @ 09.30 AM - 01.10 PM (เวลาท้องถิ่น)",
+              "time_note": "20 ก.พ. 2027 @ 09.30 AM - 01.10 PM (เวลาท้องถิ่น)",
               "channel_note": "ยังไม่ได้ใส่เลขเที่ยวบิน",
               "badge_text": "Pending",
               "badge_type": "warning"
@@ -106,7 +106,7 @@
             {
               "id": "gz_hotel_hengqin",
               "task": "IntercityHotel Zhuhai Hengqin Tianmu River 1 คืน (Intercity Deluxe Family Room พัก 2 คน/ห้อง รวมอาหารเช้า)",
-              "time_note": "เช็กอิน 30 เม.ย. @ 03.30 PM | เช็กเอาต์ 1 พ.ค. เช้า (ฝากกระเป๋า)",
+              "time_note": "เช็กอิน 20 ก.พ. @ 03.30 PM | เช็กเอาต์ 21 ก.พ. เช้า (ฝากกระเป๋า)",
               "channel_note": "Trip.com",
               "badge_text": "Pending",
               "badge_type": "warning"
@@ -114,7 +114,7 @@
             {
               "id": "gz_hotel_guangzhou",
               "task": "K Space Kaishi Hotel (Guangzhou Beijing Road) 3 คืน (พัก 2 คน/ห้อง)",
-              "time_note": "เช็กอิน 1 พ.ค. ราว 08.10 PM | เช็กเอาต์ 4 พ.ค. @ 08.40 AM",
+              "time_note": "เช็กอิน 21 ก.พ. ราว 08.10 PM | เช็กเอาต์ 24 ก.พ. @ 08.40 AM",
               "channel_note": "Trip.com",
               "badge_text": "Pending",
               "badge_type": "warning"
@@ -122,7 +122,7 @@
             {
               "id": "gz_flight_inbound",
               "task": "เที่ยวบินขากลับ CAN (白云机场) ✈ BKK",
-              "time_note": "4 พ.ค. 2027 @ 02.50 PM (ถึงสนามบิน 11.40 AM)",
+              "time_note": "24 ก.พ. 2027 @ 02.50 PM (ถึงสนามบิน 11.40 AM)",
               "channel_note": "ยังไม่ได้ใส่เลขเที่ยวบิน",
               "badge_text": "Pending",
               "badge_type": "warning"
@@ -135,7 +135,7 @@
             {
               "id": "gz_chimelong_ticket",
               "task": "บัตร Chimelong Ocean Kingdom 珠海长隆海洋王国 1 วัน",
-              "time_note": "เข้าชม 1 พ.ค. 2027 (วันแรงงาน คนแน่นมาก)",
+              "time_note": "เข้าชม 21 ก.พ. 2027 (วันอาทิตย์)",
               "channel_note": "Trip.com (ราว 450–550 หยวน)",
               "badge_text": "Pending",
               "badge_type": "warning"
@@ -151,7 +151,7 @@
             {
               "id": "gz_pearl_river_cruise",
               "task": "ตั๋วล่องเรือแม่น้ำจูเจียง 珠江夜游 (ท่า 天字码头)",
-              "time_note": "2 พ.ค. 2027 ราว 06.40 PM",
+              "time_note": "22 ก.พ. 2027 ราว 06.40 PM",
               "channel_note": "Trip.com หรือซื้อหน้าท่า (ราว 100–150 หยวน)",
               "badge_text": "Pending",
               "badge_type": "warning"
@@ -159,7 +159,7 @@
             {
               "id": "gz_liyuan_booking",
               "task": "จองโต๊ะ Liyuan Restaurant 利苑酒家 (Yi'an Plaza) และสั่งจองหมูสามชั้นอบกรอบ 冰烧三层肉 ไว้ด้วย",
-              "time_note": "2 พ.ค. 2027 @ 11.50 AM",
+              "time_note": "22 ก.พ. 2027 @ 11.50 AM",
               "channel_note": "โทรหรือจองผ่านแอป Dianping / Amap",
               "badge_text": "Recommended",
               "badge_type": "info"
@@ -201,7 +201,7 @@
             },
             {
               "id": "gz_meds",
-              "task": "ยาประจำตัว ร่ม และครีมกันแดด",
+              "task": "เสื้อแขนยาวหรือแจ็กเก็ตบาง (กุมภาพันธ์อากาศเย็น ราว 13–20°C) ยาประจำตัว และร่ม",
               "time_note": "ก่อนแพ็กกระเป๋า",
               "channel_note": "พกขนาดสำหรับเดินทาง",
               "badge_text": "Recommended",

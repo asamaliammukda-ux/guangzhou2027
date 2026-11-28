@@ -322,7 +322,7 @@
 
   function startCountdown() {
     const departureAttr = elements.hero ? elements.hero.getAttribute('data-departure') : null;
-    state.targetDepartureDate = new Date(departureAttr || '2027-04-30T09:30:00+07:00');
+    state.targetDepartureDate = new Date(departureAttr || '2027-02-20T09:30:00+07:00');
 
     function updateTimer() {
       const now = new Date().getTime();
